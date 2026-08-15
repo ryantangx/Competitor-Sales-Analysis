@@ -30,13 +30,13 @@ The analysis consolidated transactional sales spread across 7 country datasets a
 Interactive exploration and DAX measures were constructed to uncover market trends and category performance.
 
 ### 1. Market Share & Revenue Benchmarking
-![Competitor Sales Overview](link_to_your_overview_dashboard_image_here)
+![Competitor Sales Overview](Revenue by Country and Manufacturer.png)
 *Figure 1: Executive Overview — Total Revenue vs. Prior Year Target and Competitor Share Breakdown.*
 
 **Insight:** Sintec leads in sales within the US at **$51M**. While leading in the US , European markets present significant competition—primarily from **Artisans**, which dominates over **$18M** in sales.
 
 ### 2. Time Intelligence & Growth Trajectories (YoY)
-![YoY Growth Trends](link_to_your_growth_trend_image_here)
+![YoY Growth Trends](Revenue and % Growth by Year and Quarter.png)
 *Figure 2: Year-over-Year (YoY) Growth Trend across Date and Product Hierarchies.*
 
 **Insight:** Sales achieved peak growth in **Q1 2021 with an 18.8% YoY increase**. Matrix visualizations with rule-based conditional formatting spotlight top-performing product segments exceeding 60% growth.
@@ -49,7 +49,7 @@ A **Snowflake Schema** was implemented to support dimensional hierarchies and pr
 * **Surrogate Key Generation**: Generated a concatenated calculated column `ZipCountry` (`Zip & "," & Country`) in both `Sales` and `Geography` tables to resolve non-distinct relationship constraints.
 * **Dedicated Calendar Table**: Built using DAX `CALENDAR()` covering the full operational range.
 
-![Data Model Schema](link_to_your_data_model_schema_image_here)
+![Data Model Schema](Data Model & Schema.png)
 *Figure 3: Power BI Snowflake Data Model Schema and Table Relationships.*
 
 ### Core DAX Measures
