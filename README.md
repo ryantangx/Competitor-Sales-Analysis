@@ -30,14 +30,14 @@ The analysis consolidated transactional sales spread across 7 country datasets a
 Interactive exploration and DAX measures were constructed to uncover market trends and category performance.
 
 ### 1. Market Share & Revenue Benchmarking
-![Competitor Sales Overview](<Revenue by Country and Manufacturer.png>)
+![Competitor Sales Overview](<revenue_by_country_and_manufacturer.png>)
 
 *Figure 1: Executive Overview — Total Revenue vs. Prior Year Target and Competitor Share Breakdown.*
 
 **Insight:** Sintec leads in sales within the US at **$51M**. While leading in the US , European markets present significant competition—primarily from **Artisans**, which dominates over **$18M** in sales.
 
 ### 2. Time Intelligence & Growth Trajectories (YoY)
-![YoY Growth Trends](<Revenue and % Growth by Year and Quarter.png>)
+![YoY Growth Trends](<revenue_growth_by_year_and_quarter.png>)
 
 *Figure 2: Year-over-Year (YoY) Growth Trend across Date and Product Hierarchies.*
 
@@ -51,7 +51,7 @@ A **Snowflake Schema** was implemented to support dimensional hierarchies and pr
 * **Surrogate Key Generation**: Generated a concatenated calculated column `ZipCountry` (`Zip & "," & Country`) in both `Sales` and `Geography` tables to resolve non-distinct relationship constraints.
 * **Dedicated Calendar Table**: Built using DAX `CALENDAR()` covering the full operational range.
 
-![Data Model Schema](<Data Model & Schema.png>)
+![Data Model Schema](<data_model_schema.png>)
 
 *Figure 3: Power BI Snowflake Data Model Schema and Table Relationships.*
 
@@ -120,8 +120,8 @@ Based on the dashboard findings, Sintec's leadership team should execute the fol
 ## 🔗 Live Interactive Dashboard
 Click the preview below to explore the interactive Power BI report directly in your browser:
 
-[![Click to Open Live Dashboard](<Competitor Sales Analysis.png>)](https://app.powerbi.com/view?r=eyJrIjoiNWZhN2E2NTgtMGZlOC00NGU4LWI1ZDEtMTNlOTdkMWVmMDgxIiwidCI6IjRlMmY1NzE2LTk0ZDMtNGViMC1hZjIyLWI4OTljOTFmN2NkMyIsImMiOjEwfQ%3D%3D)
-[![Click to Open Live Dashboard](<Advanced Insights.png>)](https://app.powerbi.com/view?r=eyJrIjoiNWZhN2E2NTgtMGZlOC00NGU4LWI1ZDEtMTNlOTdkMWVmMDgxIiwidCI6IjRlMmY1NzE2LTk0ZDMtNGViMC1hZjIyLWI4OTljOTFmN2NkMyIsImMiOjEwfQ%3D%3D)
+[![Click to Open Live Dashboard](<competitor_sales_analysis.png>)](https://app.powerbi.com/view?r=eyJrIjoiNWZhN2E2NTgtMGZlOC00NGU4LWI1ZDEtMTNlOTdkMWVmMDgxIiwidCI6IjRlMmY1NzE2LTk0ZDMtNGViMC1hZjIyLWI4OTljOTFmN2NkMyIsImMiOjEwfQ%3D%3D)
+[![Click to Open Live Dashboard](<advanced_insights.png>)](https://app.powerbi.com/view?r=eyJrIjoiNWZhN2E2NTgtMGZlOC00NGU4LWI1ZDEtMTNlOTdkMWVmMDgxIiwidCI6IjRlMmY1NzE2LTk0ZDMtNGViMC1hZjIyLWI4OTljOTFmN2NkMyIsImMiOjEwfQ%3D%3D)
 
 ---
 *© 2026 Ryan Tang.*
