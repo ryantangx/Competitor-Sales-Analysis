@@ -8,7 +8,7 @@
 ## 📌 Abstract
 Manufacturing enterprises operating in competitive global markets require end-to-end visibility not only into internal product revenue, but also into competitor market penetration and product growth rates. This project develops an executive-ready business intelligence solution in **Power BI** for **Sintec**, a fictional global manufacturer.
 
-By integrating multi-country transactional datasets and building a robust **Snowflake Data Model**, the report provides executives with interactive performance benchmarking, market share diagnostics, and AI-driven root cause analysis. The analysis reveals that Sintec commands a **38.22% market share in the USA** and **19.83% globally**, identifying regional market bottlenecks (e.g., Artisans holding >50% share in Germany) and strategic growth opportunities across product categories.
+By integrating multi-country transactional datasets and building a robust **Snowflake Data Model**, the report provides executives with interactive performance benchmarking, market share diagnostics, and AI-driven root cause analysis. The analysis reveals that Sintec commands a **38.22% market share in the USA** and **19.63% globally**, identifying regional market bottlenecks (e.g., Artisans holding >50% share in Germany) and strategic growth opportunities across product categories.
 
 ---
 
