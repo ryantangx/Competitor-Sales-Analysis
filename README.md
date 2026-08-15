@@ -121,6 +121,7 @@ Based on the dashboard findings, Sintec's leadership team should execute the fol
 Click the preview below to explore the interactive Power BI report directly in your browser:
 
 [![Click to Open Live Dashboard](<Competitor Sales Analysis.png>)](https://app.powerbi.com/view?r=eyJrIjoiNWZhN2E2NTgtMGZlOC00NGU4LWI1ZDEtMTNlOTdkMWVmMDgxIiwidCI6IjRlMmY1NzE2LTk0ZDMtNGViMC1hZjIyLWI4OTljOTFmN2NkMyIsImMiOjEwfQ%3D%3D)
+[![Click to Open Live Dashboard](<Advanced Insights.png>)](https://app.powerbi.com/view?r=eyJrIjoiNWZhN2E2NTgtMGZlOC00NGU4LWI1ZDEtMTNlOTdkMWVmMDgxIiwidCI6IjRlMmY1NzE2LTk0ZDMtNGViMC1hZjIyLWI4OTljOTFmN2NkMyIsImMiOjEwfQ%3D%3D)
 
 ---
 *© 2026 Ryan Tang.*
