@@ -31,12 +31,14 @@ Interactive exploration and DAX measures were constructed to uncover market tren
 
 ### 1. Market Share & Revenue Benchmarking
 ![Competitor Sales Overview](<Revenue by Country and Manufacturer.png>)
+
 *Figure 1: Executive Overview — Total Revenue vs. Prior Year Target and Competitor Share Breakdown.*
 
 **Insight:** Sintec leads in sales within the US at **$51M**. While leading in the US , European markets present significant competition—primarily from **Artisans**, which dominates over **$18M** in sales.
 
 ### 2. Time Intelligence & Growth Trajectories (YoY)
-![YoY Growth Trends](Revenue and % Growth by Year and Quarter.png)
+![YoY Growth Trends](<Revenue and % Growth by Year and Quarter.png>)
+
 *Figure 2: Year-over-Year (YoY) Growth Trend across Date and Product Hierarchies.*
 
 **Insight:** Sales achieved peak growth in **Q1 2021 with an 18.8% YoY increase**. Matrix visualizations with rule-based conditional formatting spotlight top-performing product segments exceeding 60% growth.
@@ -49,7 +51,8 @@ A **Snowflake Schema** was implemented to support dimensional hierarchies and pr
 * **Surrogate Key Generation**: Generated a concatenated calculated column `ZipCountry` (`Zip & "," & Country`) in both `Sales` and `Geography` tables to resolve non-distinct relationship constraints.
 * **Dedicated Calendar Table**: Built using DAX `CALENDAR()` covering the full operational range.
 
-![Data Model Schema](Data Model & Schema.png)
+![Data Model Schema](<Data Model & Schema.png>)
+
 *Figure 3: Power BI Snowflake Data Model Schema and Table Relationships.*
 
 ### Core DAX Measures
@@ -115,11 +118,9 @@ Based on the dashboard findings, Sintec's leadership team should execute the fol
 ---
 
 ## 🔗 Live Interactive Dashboard
-Experience the interactive report directly in the browser:
+Click the preview below to explore the interactive Power BI report directly in your browser:
 
-```html
-<iframe title="Competitor Sales Analysis" width="100%" height="450" src="[https://app.powerbi.com/view?r=eyJrIjoiNWZhN2E2NTgtMGZlOC00NGU4LWI1ZDEtMTNlOTdkMWVmMDgxIiwidCI6IjRlMmY1NzE2LTk0ZDMtNGViMC1hZjIyLWI4OTljOTFmN2NkMyIsImMiOjEwfQ%3D%3D](https://app.powerbi.com/view?r=eyJrIjoiNWZhN2E2NTgtMGZlOC00NGU4LWI1ZDEtMTNlOTdkMWVmMDgxIiwidCI6IjRlMmY1NzE2LTk0ZDMtNGViMC1hZjIyLWI4OTljOTFmN2NkMyIsImMiOjEwfQ%3D%3D)" frameborder="0" allowFullScreen="true"></iframe>
-```
+[![Click to Open Live Dashboard](<Competitor Sales Analysis.png>)](https://app.powerbi.com/view?r=eyJrIjoiNWZhN2E2NTgtMGZlOC00NGU4LWI1ZDEtMTNlOTdkMWVmMDgxIiwidCI6IjRlMmY1NzE2LTk0ZDMtNGViMC1hZjIyLWI4OTljOTFmN2NkMyIsImMiOjEwfQ%3D%3D)
 
 ---
 *© 2026 Ryan Tang.*
