@@ -97,7 +97,7 @@ DIVIDE(
 | :--- | :--- | :--- |
 | **Competitor Sales Analysis** | Executive KPI Dashboard | Gauge target tracking, top 5 competitor breakdown, matrix with heat-mapped % growth, and bookmark-driven storytelling. |
 | **Advanced Insights** | AI-Powered Diagnostics | **Decomposition Tree** for category hierarchy root-cause analysis and **Key Influencers** visual to detect revenue drivers. |
-| **Interactive UX** | Navigation & Drillthrough | Contextual drillthrough by country, horizontal image-based manufacturer slicers, and custom JSON branded theme formatting. |
+| **Interactive UX** | Navigation & Drillthrough | Contextual drillthrough by country and horizontal image-based manufacturer slicers. |
 
 ---
 
