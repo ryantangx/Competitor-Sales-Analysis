@@ -33,7 +33,7 @@ Interactive exploration and DAX measures were constructed to uncover market tren
 ![Competitor Sales Overview](link_to_your_overview_dashboard_image_here)
 *Figure 1: Executive Overview — Total Revenue vs. Prior Year Target and Competitor Share Breakdown.*
 
-**Insight:** Sintec holds **21.15% global market share**. While leading in the US (38.22%), European markets present significant competition—primarily from **Artisans**, which dominates over **50% of the German market**.
+**Insight:** Sintec leads in sales within the US at **$51M**. While leading in the US , European markets present significant competition—primarily from **Artisans**, which dominates over **$18M** in sales.
 
 ### 2. Time Intelligence & Growth Trajectories (YoY)
 ![YoY Growth Trends](link_to_your_growth_trend_image_here)
