@@ -30,7 +30,7 @@ The analysis consolidated transactional sales spread across 7 country datasets a
 Interactive exploration and DAX measures were constructed to uncover market trends and category performance.
 
 ### 1. Market Share & Revenue Benchmarking
-![Competitor Sales Overview](Revenue by Country and Manufacturer.png)
+![Competitor Sales Overview](<Revenue by Country and Manufacturer.png>)
 *Figure 1: Executive Overview — Total Revenue vs. Prior Year Target and Competitor Share Breakdown.*
 
 **Insight:** Sintec leads in sales within the US at **$51M**. While leading in the US , European markets present significant competition—primarily from **Artisans**, which dominates over **$18M** in sales.
